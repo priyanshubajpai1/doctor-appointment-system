@@ -1,0 +1,55 @@
+# Node dependencies for all workspaces
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore all .env files everywhere
+**/.env
+**/.env.*.local
+**/.env.local
+
+# Build output
+dist/
+build/
+out/
+.next/
+.vite/
+coverage/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Local backups
+*.swp
+*.tmp
+
+# Optional: lock files for other package managers you don’t use
+# (example: if you only use npm)
+yarn.lock
+pnpm-lock.yaml
+
+# Firebase / AWS / deployment caches (if any)
+.firebase/
+.aws/
+
+# Misc: add your own custom folders
